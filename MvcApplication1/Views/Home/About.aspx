@@ -7,6 +7,11 @@
 <asp:Content ID="aboutContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>About</h2>
     <p>
-        Put content here.
+        Put content here. ==>>>>  <%: ViewData["Message"] %><br /><br /><br />
+
+
+        Session Value Appears here  ===> <%: Session["MyFirstSession"]%>
+
+
     </p>
 </asp:Content>

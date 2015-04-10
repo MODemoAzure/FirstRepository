@@ -13,11 +13,16 @@ namespace MvcApplication1.Controllers
         {
             ViewData["Message"] = "Welcome to ASP.NET MVC! Hello World!!!! Update 123!!";
 
+            Session["MyFirstSession"] = "MVC First Session";
+
             return View();
         }
 
         public ActionResult About()
         {
+
+            ViewData["Message"] = Session["MyFirstSession"] as string;
+            
             return View();
         }
     }
