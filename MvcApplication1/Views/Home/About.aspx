@@ -10,7 +10,7 @@
         Put content here. ==>>>>  <%: ViewData["Message"] %><br /><br /><br />
 
 
-        Session Value Appears here  ===> <%: Session["MyFirstSession"]%>
+        Session Value Appears here Update  ===> <%: Session["MyFirstSession"]%>
 
 
     </p>
